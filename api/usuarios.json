@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome":"Guilherme",
+        "idade":"15;",
+        "email":"guilherme@gmail.com",
+        "salario":5.000
+    },
+    {
+        "id": 2,
+        "nome":"gabriel",
+        "idade":"14;",
+        "email":"gabriel@gmail.com",
+        "salario":2.000
+    }
+]
