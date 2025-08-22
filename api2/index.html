@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Consultar Endereço por CEP </h1>
+
+<input type="text" id="cep" placeholder="Digite o CEP">
+
+<button onclick="buscar()">Buscar</button>
+
+<span id="bairro"></span>
+<span id="localidade"></span>
+<span id="logradouro"></span>
+<span id="uf"></span>
+
+<script>
+    function buscar(){
+        const cep = document.getElementById('cep') .value;
+        fetch(`https://viacep.com.br/ws/${cep}/json/`)
+        .then(res => res.json())
+        .then(json =>{
+            // console.log(json.localidade)
+            console.log(cep)
+            // document.getElementById('resultado').innerText = JSON.stringify(json, null, 2)
+            document.getElementById('bairro').innerText = json.bairro
+            document.getElementById('localidade').innerText = json.localidade
+            document.getElementById('logradouro').innerText = json.logradouro
+            document.getElementById('uf').innerText = json.uf
+        })
+    }
+</script>
+
+</body>
+</html>
