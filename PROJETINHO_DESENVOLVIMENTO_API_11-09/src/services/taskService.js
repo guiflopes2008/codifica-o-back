@@ -59,7 +59,7 @@ task.push(newTask)
 return newTask;
 
 
-const deleteData = (id) => {
+const del = (id) => {
     const taskIndex = tasks.findIndex(t=>t.id === id)
 
     if(taskIndex === -1)
