@@ -1,0 +1,59 @@
+1. Explique a diferença entre uma API e um endpoint.
+
+Resposta >> A API é um conjunto de regras e definiçoes que permitem a comunicação entre sistemas já o endpoint é o endereço dentro da API que é uma responsabilidade
+
+2 . Cite exemplos de quando usar GET, POST, PUT, PATCH e DELETE em uma API.
+
+Resposta >> listar todos, criar um usuario, atualizar tudo de um usuario, só atualizar o nome, apagar
+
+3. Qual a função dos headers em uma requisição HTTP? Dê dois exemplos.
+
+Resposta >> definir o conteudo da requisição e carrega informações adicionais 
+content type e 
+
+4. Diferencie query params, params de rota e body em uma requisição.
+Resposta >>Dados enviados na url apos a ?, rota é, body são os dados enviados na requisição
+
+5. Explique com suas palavras a importância do Postman no desenvolvimento e testes de
+APIs.
+Resposta >>Ajuda no texte da api antes da api ser feita, permite avaliar, validar e documentar os endpoints
+
+6. Explique com suas palavras quem é o request (quem faz a requisição) e quem é o
+response (quem envia a resposta).
+Resposta >>O request seria o usuario, ele que escolhe o que vai ter no sistema. Já o response é o servidor que responde o que o usuario pede.
+
+7. Defina os conceitos de classe e objeto em POO e dê um exemplo fora do contexto de
+programação.
+Resposta >>Class é o esqueleto e o objeto é uma instancia de uma classe.Exemplo,  um carro, classe é o carro já o obj é as caracteristicas.
+
+8. Explique a diferença entre atributo e método em uma classe.
+Resposta >> Atributo é algo que o objeto tem (nome).
+Método é algo que o objeto faz ( falar).
+
+9. O que é o encapsulamento em POO e por que ele é importante?
+Resposta >>encapsulamento é a proteção de dados uma classe controlando o acesso a eles e evita modificações indevidas, public tem o acesso aonde quiser, protect é o acesso restrito as classes que ele esta
+
+10. Explique a função dos getters e setters e quando devemos usá-los.
+Resposta >>Set define e o getters pega esssa definição.
+
+11. Explique o papel do Express.js quando usamos Node.js + MySQL em um projeto.
+Resposta >>Ele facilita a criação de rotas middlewares e controle de requicições e respostas do back-end.
+
+12. Quais são os benefícios de separar as camadas do back-end em rotas, controladores e
+modelos?
+Resposta >>fica mais organizado e, As rotas organizam o endpoint, controles controlam as regras de negocio,
+
+13. O que é um middleware no Express.js?
+Resposta >>É uma funcão intermediaria que processa a requisição antes da resposta final.
+
+14. Por que é importante centralizar o tratamento de erros em uma aplicação?
+Resposta >>facilita identificar, corrigir e manter os erros, deixando a aplicação mais estável e organizada.
+
+15. Diferencie o uso de try/catch local e o uso de um middleware de erro global.
+Resposta >>usado em blocos expicificos de codigo. Já middleware de erro global captura o erro de toda aplicação garantindo trabalho centralizado
+
+16. O que é um ORM e por que usá-lo em vez de escrever queries SQL manuais?
+Resposta >>ORM é uma ferramenta que permite interagir com o banco de dados ao inves de sql puro.
+
+17. Cite três vantagens do uso do Sequelize.
+Resposta >>facilita a criação e manipulação de tabelas sem precisar escrever sql normal, suporta a migração de bancos de dados e funciona em varios bancos.x

@@ -83,7 +83,7 @@ class Carro {
     }
   
     frear() {
-      this.#velocidade = --;
+      this.#velocidade = --
       console.log("Parou");
     }
   
